@@ -6,7 +6,7 @@ from selenium.webdriver import Chrome
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
-ser = Service(r"C:\Users\PC\Documents\chromedriver_win32\chromedriver.exe")
+ser = Service(r"Isi Lokasi Chrome Driver Kalian")
 options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 # to supress the error messages/logs
