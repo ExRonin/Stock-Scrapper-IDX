@@ -36,7 +36,7 @@ else:
     # Get full year data
     length = 365
 
-ser = Service(r"C:\Users\PC\Documents\chromedriver_win32\chromedriver.exe")
+ser = Service(r"Isi Lokasi Chrome Driver Kalian")
 options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 # to supress the error messages/logs
